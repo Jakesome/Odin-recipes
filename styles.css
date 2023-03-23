@@ -1,0 +1,7 @@
+/*Styles for recipe index*/
+
+li {background-color: rgb(224, 223, 228); color: rgb(255, 255, 255); font-size: 32px;}
+
+h1 {color: #0000ff80; font-weight: 1000; font-size: 38px;}
+
+h1, li {text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
