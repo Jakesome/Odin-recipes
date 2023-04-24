@@ -1,12 +1,17 @@
 /*Styles for recipe index*/
-* {text-align: center; font-family: 'Courier New', Courier, monospace}
+* {text-align: center; font-family: 'Courier New', Courier, monospace;}
 
-li {background-color: rgb(224, 223, 228); color: rgb(255, 255, 255);  font-size: 32px;}
-li:hover {background-color: #0000ff80}
+button {background-color: rgb(224, 223, 228); color: rgb(255, 255, 255);  font-size: 32px;}
+button:hover {background-color: #0000ff80}
 
 h1 {color: #0000ff80; font-weight: 1000; font-size: 38px;}
 
-.button {box-sizing: border-box; height: 60px; margin: 50px}
+.flex-container { display: flex}
+.flex-container button{flex: 1 1 auto}
+.flex-container img {flex: 1 1 auto}
 
-img {display: inline-block; margin: 120PX;}
+
+img {margin: 90PX; border: 12px solid #0000ff80}
+
+
 /*Styles for recipe pages*/
