@@ -6,12 +6,9 @@ button:hover {background-color: #0000ff80}
 
 h1 {color: #0000ff80; font-weight: 1000; font-size: 38px;}
 
-.flex-container { display: flex}
-.flex-container button{flex: 1 1 auto}
-.flex-container img {flex: 1 1 auto}
+.flex-container { display: flex; justify-content: space-around; align-items: center;}
 
-
-img {margin: 90PX; border: 12px solid #0000ff80}
+img {margin:80px; border: 12px solid #0000ff80;}
 
 
 /*Styles for recipe pages*/
