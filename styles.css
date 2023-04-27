@@ -1,14 +1,48 @@
-/*Styles for recipe index*/
-* {text-align: center; font-family: 'Courier New', Courier, monospace;}
 
-button {background-color: rgb(224, 223, 228); color: rgb(255, 255, 255);  font-size: 32px;}
-button:hover {background-color: #0000ff80}
+* {
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+}
 
-h1 {color: #0000ff80; font-weight: 1000; font-size: 38px;}
+button {
+    background-color: rgb(224, 223, 228); 
+    color: rgb(255, 255, 255);  
+    font-size: 32px;
+}
+button:hover {
+    background-color: #0000ff80
+}
+h1 {
+    color: #0000ff80; 
+    font-weight: 1000; 
+    font-size: 38px;
+}
+.flex-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:column;
+    flex:1;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+img {
+    margin:80px;
+    border: 12px solid #0000ff80;
 
-.flex-container { display: flex; justify-content: space-around; align-items: center;}
 
-img {margin:80px; border: 12px solid #0000ff80;}
+}
+/*issue aligning the buttons so a temp fix of adding margins top and bottom*/
+#item-2 {
+    margin-top: 12px;
+}
+#item-3 {
+    margin-bottom: 110px;
+}
 
 
-/*Styles for recipe pages*/
+
