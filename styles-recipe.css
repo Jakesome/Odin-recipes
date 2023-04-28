@@ -1,5 +1,35 @@
-* {font-family: 'Courier New', Courier, monospace;}
-h1 {color: #0000ff80; font-weight: 1000; font-size: 38px; text-align: center;}
-img{display: block; margin-left: auto; margin-right: auto;}
-h5, .description {text-align: center;}
-.ingredients {display: inline-block; border: 12px solid #0000ff80; padding:25px; font-weight: 700; }
+* {
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+h1 {color: #0000ff80; 
+    font-weight: 1000; 
+    font-size: 38px; 
+    text-align: center;
+}
+h5, .description {text-align: center;
+}
+.ingredients {
+    display: inline-block; 
+    border: 12px solid #0000ff80; 
+    padding:25px; 
+    font-weight: 700; 
+}
+.flex-item { 
+    display:flex;
+    justify-content: center;
+    
+/*Poppy loaf*/
+}
+#steps {
+    display: inline-block; 
+    border: 12px solid #0000ff80; 
+    padding:25px; 
+    font-weight: 700; 
+    margin-left: 120px;
+    margin-right:200px;
+    margin-bottom: 50px;
+    padding:50px;
+    
+}
+

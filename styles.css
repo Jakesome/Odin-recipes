@@ -15,7 +15,13 @@ button:hover {
 h1 {
     color: #0000ff80; 
     font-weight: 1000; 
-    font-size: 38px;
+    font-size: 48px;
+    margin: 20px;
+    margin-top:80px;
+    border-style:groove;
+    border-width: thick;
+    display: inline-block;
+    padding:25px;
 }
 .flex-item {
     display: flex;
@@ -32,9 +38,11 @@ h1 {
 }
 img {
     margin:80px;
+    padding:12px;
     border: 12px solid #0000ff80;
-
-
+}
+#name {
+    margin-bottom: 80px;
 }
 /*issue aligning the buttons so a temp fix of adding margins top and bottom*/
 #item-2 {
