@@ -18,16 +18,14 @@ h5, .description {text-align: center;
 .flex-item { 
     display:flex;
     justify-content: center;
-    
-/*Poppy loaf*/
+    flex:1;
+
 }
 #steps {
-    display: inline-block; 
+    display:inline-block;
     border: 12px solid #0000ff80; 
     padding:25px; 
     font-weight: 700; 
-    margin-left: 120px;
-    margin-right:200px;
     margin-bottom: 50px;
     padding:50px;
     
